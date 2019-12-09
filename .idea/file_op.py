@@ -101,6 +101,7 @@ print(random.choice(['aa','bb,''cc']))              #随机输出aa,bb,cc
 #对文件和目录进行操作
 import os
 from os import path
+os.chdir("/home/zzq");  # 进入到指定目录下
 print(os.path.abspath('.'))         #D:\iris.li\桌面\python_study\.idea
 print(os.path.abspath('..'))        #D:\iris.li\桌面\python_study
 os.path.exists('/Users')            #判断此目录/文件是否存在
