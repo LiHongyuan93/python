@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-#实现功能：将已json格式的日志转化为字典格式，并逐行读入数据库中
+#实现功能：将已json格式的日志转化为字典格式，并逐行插入到数据库中
 import re
 import simplejson as json
 import MySQLdb
