@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>登录页面</title>
+	<link rel="stylesheet" href="../static/css/reg.css" type="text/css"></link>
+	<script type="text/javascript" src="../static/js/jquery.js"></script>
+	<script type="text/javascript">
+		//提交表单
+		function submitForm(){
+			var vname = $("#userName").val();
+			var vpw = $("#userPw").val();
+			var vcode = $("#vcode").val();
+			if(vname===""){
+				alert("用户名不能为空！");
+				document.getElementById("userName").focus();
+				return false;
+			}else if(vpw===""){
+				alert("密码不能为空！");
+				document.getElementById("userPw").focus();
+				return false;
+			}else if(vcode===""){
+				alert("验证码不能为空！");
+				document.getElementById("vcode").focus();
+				return false;
+			}else{
+                $('#loginForm').submit();
+				return true;
+			}	
+		}
+		//初始给用户名框焦点
+		function giveFocus(){
+			document.getElementById("userName").focus();
+		}
+	</script>
+  </head>
+  <body onload="giveFocus();">
+	 <div class="login">
+	  <div class="logink">
+	  
+	    <div class="loginkr">
+	    <form id="loginForm" name="loginForm" method="post">
+	        <div class="logi">
+	          <b>用户名：</b><input class="binpt" type="text" name="userName" id="userName" maxlength="11" />
+	          <label onclick=""></label></div>
+	        <div class="logi">
+	          <b>
+		          <table width="53" border="0" cellspacing="0" cellpadding="0">
+		            <tr>
+		              <td width="16">密</td>
+		              <td width="14">&nbsp;</td>
+		              <td width="23">码:</td>
+		            </tr>
+		          </table>
+	          </b><input class="binptw"  type="password" name="userPw" id="userPw" />
+	        </div>
+	        <input class="dw" type="button" name="button" id="button" onclick="submitForm();" value="" onmouseover="this.className='dws0'" onmouseout="this.className='dw'" />
+	        </form>
+	  </div>
+	</div>
+	</div>
+  </body>
+</html>
