@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46a967e4-5ef4-4d79-a866-4b69f68ad304" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OOP.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/advance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/basic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/delete_tar_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/file_op.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/high.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/print_triangle.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/split_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/flask-adminlte-scaffold/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/project/flask-adminlte-scaffold/logs/app.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +49,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python.split_log">
+  <component name="RunManager" selected="Python.crawler">
     <configuration name="basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +64,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/crawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crawler" />
         <item itemvalue="Python.split_log" />
         <item itemvalue="Python.easygui_practice" />
         <item itemvalue="Python.basic" />
@@ -181,10 +192,11 @@
       <screen x="0" y="23" width="1440" height="817" />
     </state>
     <state x="351" y="26" key="CommitChangelistDialog2/0.23.1440.817@0.23.1440.817" timestamp="1586227609343" />
-    <state width="1419" height="203" key="GridCell.Tab.0.bottom" timestamp="1586229640752">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom" timestamp="1586773761981">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1585743993117" />
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.803/1440.-157.1920.1057@0.23.1440.803" timestamp="1586773761981" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1585878147413" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1585881373406" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1585729973036" />
@@ -194,10 +206,11 @@
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1586224447073" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585901640872" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586229640752" />
-    <state width="1419" height="203" key="GridCell.Tab.0.center" timestamp="1586229640751">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1419" height="203" key="GridCell.Tab.0.center" timestamp="1586773761980">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1585743993116" />
+    <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.803/1440.-157.1920.1057@0.23.1440.803" timestamp="1586773761980" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1585878147412" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1585881373405" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1585729973036" />
@@ -207,10 +220,11 @@
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1586224447072" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585901640871" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1586229640751" />
-    <state width="1419" height="203" key="GridCell.Tab.0.left" timestamp="1586229640751">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1419" height="203" key="GridCell.Tab.0.left" timestamp="1586773761979">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1585743993116" />
+    <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.803/1440.-157.1920.1057@0.23.1440.803" timestamp="1586773761979" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1585878147411" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1585881373405" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1585729973035" />
@@ -220,10 +234,11 @@
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1586224447071" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585901640870" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1586229640751" />
-    <state width="1419" height="203" key="GridCell.Tab.0.right" timestamp="1586229640752">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1419" height="203" key="GridCell.Tab.0.right" timestamp="1586773761981">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1585743993117" />
+    <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.803/1440.-157.1920.1057@0.23.1440.803" timestamp="1586773761981" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1585878147412" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1585881373406" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1585729973036" />
@@ -237,9 +252,10 @@
       <screen x="0" y="23" width="1440" height="817" />
     </state>
     <state x="320" y="163" key="Vcs.Push.Dialog.v2/0.23.1440.817@0.23.1440.817" timestamp="1586227623206" />
-    <state x="376" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585790444515">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="376" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1586312257655">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="376" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1585790444515" />
+    <state x="376" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1586312257655" />
   </component>
 </project>

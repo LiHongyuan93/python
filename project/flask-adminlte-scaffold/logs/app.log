@@ -9167,3 +9167,5 @@ AssertionError: applications must write bytes
 2020-04-07 11:42:12,061 werkzeug     INFO      * Restarting with stat
 2020-04-07 11:42:12,340 werkzeug     WARNING   * Debugger is active!
 2020-04-07 11:42:12,349 werkzeug     INFO      * Debugger PIN: 410-000-138
+2020-04-08 17:38:48,881 werkzeug     INFO     127.0.0.1 - - [08/Apr/2020 17:38:48] "[33mGET / HTTP/1.1[0m" 404 -
+2020-04-08 17:38:49,065 werkzeug     INFO     127.0.0.1 - - [08/Apr/2020 17:38:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
