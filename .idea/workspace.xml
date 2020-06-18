@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46a967e4-5ef4-4d79-a866-4b69f68ad304" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/crawler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat_robot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat_robot/autoresponse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat_robot/city_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat_robot/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat_robot/test02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/flask-adminlte-scaffold/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/project/flask-adminlte-scaffold/logs/app.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +52,20 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python.crawler">
-    <configuration name="basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_study" />
+  <component name="RunManager" selected="Python.test02">
+    <configuration name="autoresponse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wechat_robot" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/basic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechat_robot/autoresponse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,27 +95,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="easygui_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basic_knowledge" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basic_knowledge/easygui_practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="split_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,12 +116,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wechat_robot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechat_robot/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wechat_robot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechat_robot/test02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test02" />
+        <item itemvalue="Python.autoresponse" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.crawler" />
         <item itemvalue="Python.split_log" />
-        <item itemvalue="Python.easygui_practice" />
-        <item itemvalue="Python.basic" />
       </list>
     </recent_temporary>
   </component>
@@ -192,62 +216,86 @@
       <screen x="0" y="23" width="1440" height="817" />
     </state>
     <state x="351" y="26" key="CommitChangelistDialog2/0.23.1440.817@0.23.1440.817" timestamp="1586227609343" />
-    <state width="1419" height="203" key="GridCell.Tab.0.bottom" timestamp="1586773761981">
-      <screen x="0" y="23" width="1440" height="803" />
+    <state width="1419" height="26" key="GridCell.Tab.0.bottom" timestamp="1592476636862">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1585743993117" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.803/1440.-157.1920.1057@0.23.1440.803" timestamp="1586773761981" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1585878147413" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1585881373406" />
-    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1585729973036" />
-    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1585901292415" />
-    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1586226858712" />
+    <state width="1419" height="256" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1592465954237" />
+    <state width="1419" height="256" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1592475946487" />
+    <state width="1419" height="26" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1592476636862" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1586226444230" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1586224447073" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585901640872" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586229640752" />
-    <state width="1419" height="203" key="GridCell.Tab.0.center" timestamp="1586773761980">
-      <screen x="0" y="23" width="1440" height="803" />
+    <state width="1419" height="26" key="GridCell.Tab.0.center" timestamp="1592476636861">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1585743993116" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.803/1440.-157.1920.1057@0.23.1440.803" timestamp="1586773761980" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1585878147412" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1585881373405" />
-    <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1585729973036" />
-    <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1585901292415" />
-    <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1586226858711" />
+    <state width="1419" height="256" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1592465954236" />
+    <state width="1419" height="256" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1592475946486" />
+    <state width="1419" height="26" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1592476636861" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1586226444230" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1586224447072" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585901640871" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1586229640751" />
-    <state width="1419" height="203" key="GridCell.Tab.0.left" timestamp="1586773761979">
-      <screen x="0" y="23" width="1440" height="803" />
+    <state width="1419" height="26" key="GridCell.Tab.0.left" timestamp="1592476636860">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1585743993116" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.803/1440.-157.1920.1057@0.23.1440.803" timestamp="1586773761979" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1585878147411" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1585881373405" />
-    <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1585729973035" />
-    <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1585901292414" />
-    <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1586226858711" />
+    <state width="1419" height="256" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1592465954236" />
+    <state width="1419" height="256" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1592475946486" />
+    <state width="1419" height="26" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1592476636860" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1586226444229" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1586224447071" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585901640870" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1586229640751" />
-    <state width="1419" height="203" key="GridCell.Tab.0.right" timestamp="1586773761981">
-      <screen x="0" y="23" width="1440" height="803" />
+    <state width="1419" height="26" key="GridCell.Tab.0.right" timestamp="1592476636861">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1585743993117" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.803/1440.-157.1920.1057@0.23.1440.803" timestamp="1586773761981" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1585878147412" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1585881373406" />
-    <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1585729973036" />
-    <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1585901292415" />
-    <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1586226858712" />
+    <state width="1419" height="256" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1592465954237" />
+    <state width="1419" height="256" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1592475946487" />
+    <state width="1419" height="26" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1592476636861" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1586226444230" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1586224447072" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585901640871" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1586229640752" />
+    <state width="1419" height="26" key="GridCell.Tab.1.bottom" timestamp="1592476636799">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1419" height="256" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1592465954239" />
+    <state width="1419" height="256" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1592475975821" />
+    <state width="1419" height="26" key="GridCell.Tab.1.bottom/0.23.1440.812@0.23.1440.812" timestamp="1592476636799" />
+    <state width="1419" height="26" key="GridCell.Tab.1.center" timestamp="1592476636798">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1419" height="256" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1592465954238" />
+    <state width="1419" height="256" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1592475975820" />
+    <state width="1419" height="26" key="GridCell.Tab.1.center/0.23.1440.812@0.23.1440.812" timestamp="1592476636798" />
+    <state width="1419" height="26" key="GridCell.Tab.1.left" timestamp="1592476636798">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1419" height="256" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1592465954238" />
+    <state width="1419" height="256" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1592475975820" />
+    <state width="1419" height="26" key="GridCell.Tab.1.left/0.23.1440.812@0.23.1440.812" timestamp="1592476636798" />
+    <state width="1419" height="26" key="GridCell.Tab.1.right" timestamp="1592476636798">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1419" height="256" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1592465954238" />
+    <state width="1419" height="256" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1592475975821" />
+    <state width="1419" height="26" key="GridCell.Tab.1.right/0.23.1440.812@0.23.1440.812" timestamp="1592476636798" />
     <state x="320" y="163" key="Vcs.Push.Dialog.v2" timestamp="1586227623206">
       <screen x="0" y="23" width="1440" height="817" />
     </state>
@@ -257,5 +305,16 @@
     </state>
     <state x="376" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1585790444515" />
     <state x="376" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1586312257655" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
